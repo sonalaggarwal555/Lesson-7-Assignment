@@ -3,6 +3,7 @@
 }
 body{
   margin:0;
+  background-image: url("images/images.jpg");
 }
 header{
   display: grid;
@@ -49,7 +50,6 @@ small{
   display:grid;
   grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
   grid-gap: 20px;
-  background-image: url("images/images.jpg");
   padding :10px;
 }
 .item-1{
@@ -80,7 +80,6 @@ small{
 .main{
   padding: 10px;
   background-color: transparent;
-  background-image: url("images/Images.jpg");
   color:white;
 }
 /* OUR INSTRUCTORS */
@@ -89,7 +88,6 @@ small{
   grid-template-columns: 1fr 1fr;
   padding:10px;
   grid-gap:2px;
-  background-image: url("images/Images.jpg");
 }
 .grid > div{
   background-color: #1b447f;
