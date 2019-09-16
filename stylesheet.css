@@ -52,7 +52,7 @@ small{
   grid-gap: 20px;
   padding :10px;
 }
-.item-1{
+section{
   background-color:#f1f1f1;
   padding:10px;
   border-radius: 20px;
@@ -70,14 +70,14 @@ small{
   font-size: 15px;
 }
 /* Private Classes */
-.item-2{
+aside{
   background-color:#f1f1f1;
   padding:10px;
   border-radius: 20px;
   grid-template-rows: auto;
 }
 /* About Us */
-.main{
+article{
   padding: 10px;
   background-color: transparent;
   color:white;
@@ -103,12 +103,12 @@ small{
 .profile-pic{
     height:120px;
 }
-.content-footer{
+.card-footer{
   display: grid;
   grid-template-rows:auto;
   padding: 10px 0px;
 }
-.content-footer > div{
+.card-footer > div{
   color: white;
   grid-gap:2px;
 }
