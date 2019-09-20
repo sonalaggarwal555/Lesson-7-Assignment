@@ -9,7 +9,7 @@ body{
 header{
   display: grid;
   grid-column-end: span 3;
-  background-color: #00bcd478;
+  background-color: #00cee8eb;
   text-align: center;
   padding: 5px;
 }
@@ -84,8 +84,13 @@ aside{
 /* About Us */
 article{
   padding: 10px;
-  background-color: transparent;
-  color:white;
+  /* background-color: transparent;*/
+  opacity:1.5;
+}
+.card-desc-aboutus{
+  font-size: 15px;
+  background-color: #f1f1f1;
+  padding:10px;
 }
 /* OUR INSTRUCTORS */
 .grid{
